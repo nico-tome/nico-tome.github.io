@@ -1,5 +1,5 @@
 
-<p align="center"> <img alt="electron" src="https://github.com/nico-tome/Portfolio/blob/007552dc98572d0aa79592969b3b794328f19183/image/terminal.gif"/> </p>
+<p align="center"> <img alt="electron" src="image/terminal.gif"/> </p>
 
 ---
 
