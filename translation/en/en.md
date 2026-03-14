@@ -1,5 +1,5 @@
 
-<p align="center"> <img alt="electron" src="image/terminal.gif"/> </p>
+<p align="center"> <img alt="electron" src="../../image/terminal.gif"/> </p>
 
 ---
 
