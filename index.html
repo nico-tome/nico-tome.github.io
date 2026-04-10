@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Nicolas Tome</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Portfolio de Nicolas Tome." />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="https://github.com/nico-tome.png" alt="Nicolas Tome" class="brand-mark" />
+      <div>
+        <strong>Nicolas Tome</strong>
+        <p>Portfolio de projets</p>
+      </div>
+    </div>
+    <nav class="nav-links">
+      <a href="#projects">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-copy">
+        <h1>Mes projets.</h1>
+        <p>Voici la liste des mes projets personnels.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Voir mes projets</a>
+          <a class="button button-secondary" href="#contact">Me contacter</a>
+        </div>
+      </div>
+      <div class="hero-panel">
+        <div class="card overview-card">
+          <h2>Langages favori</h2>
+          <p>Une utilisation variée adaptée à chaque projet.</p>
+          <div class="overview-content">
+            <div class="stats-grid">
+              <div>
+                <strong id="projects-count">7</strong>
+                <span>projets</span>
+              </div>
+              <div>
+                <strong id="languages-count">5</strong>
+                <span>langages</span>
+              </div>
+            </div>
+            <div class="languages-chart" id="languages-chart"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="section-card">
+        <h2>Qui suis-je ?</h2>
+        <p>Passionné par la programmation, j'ai appris le code en autodidacte en créant des projets seul pendant mes temps libre. Puis j'ai intégré l'école <a href="https://42angouleme.fr" target="_blank">42 Angoulême</a>.</p>
+        <p>-----</p>
+        <p>🇫🇷 Francais et 🇪🇸 espnol</p>
+        <p>🤺 Escrimeur de haut niveau au pole français à Bordeaux</p>
+        <p>🎓 Étudiant à l'école <a href="https://42angouleme.fr" target="_blank">42 Angoulême</a></p>
+        <p>🗣️ Je parle: 🇫🇷 🇬🇧 🇪🇸</p>
+      </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Projets</p>
+          <h2>Mes réalisations</h2>
+        </div>
+        <div class="search-group">
+          <label class="sr-only" for="project-search">Rechercher un projet</label>
+          <input id="project-search" type="search" placeholder="Rechercher un projet..." />
+        </div>
+      </div>
+      <div class="filter-bar" id="filter-bar"></div>
+      <div class="project-grid" id="project-grid"></div>
+      <p class="no-results" id="no-results">Aucun projet ne correspond à votre recherche.</p>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-card">
+        <h2>Contact</h2>
+        <p>Pour des collaborations, des questions ou un retour sur ce portfolio :</p>
+        <ul>
+          <li>Email : <a href="mailto:nicolas.tome.38@gmail.com">nicolas.tome.38@gmail.com</a></li>
+          <li>Instagram : <a target="_blank" rel="noreferrer" href="https://www.instagram.com/nico__tome/">@nico__tome</a></li>
+          <li>Itch.io : <a target="_blank" rel="noreferrer" href="https://tomyo.itch.io/">tomyo.itch.io</a></li>
+        </ul>
+      </div>
+      <div class="section-card">
+        <h2>Contributions</h2>
+        <p>Contributions open-source :</p>
+        <ul>
+          <li><a target="_blank" rel="noreferrer" href="https://github.com/TurboWarp/extensions/pull/632">TurboWarp extensions</a></li>
+          <li><a target="_blank" rel="noreferrer" href="https://github.com/godotengine/godot/pulls/nico-tome">Godot</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Portfolio statique hébergeable sur GitHub Pages — créé avec HTML, CSS et JavaScript.</p>
+  </footer>
+
+  <script src="data/projects.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
