@@ -94,5 +94,17 @@ window.PORTFOLIO_PROJECTS = [
     status: 'C / Linux',
     languages: ['C', 'Makefile'],
     tags: ['Shell', 'C', '42']
+  },
+  {
+	title: 'ft_ls',
+	category: 'Outils',
+	subtitle: 'Une reproduction de la commande ls',
+	description: 'Un projet de command linux qui reproduit le comportement de ls. Apprend la gestion de flag et des infos des fichiers.',
+	image: 'image/ft_ls.png',
+	link: 'https://github.com/nico-tome/ft_ls',
+	linkLabel: 'Voir sur Github',
+	status: 'C / Linux',
+	languages: ['C', 'Makefile'],
+	tags: ['Shell', 'C', '42']
   }
 ];
